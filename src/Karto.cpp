@@ -196,7 +196,7 @@ namespace karto
     {
       std::cout << "LaserRangeScan contains " << pLaserRangeScan->GetNumberOfRangeReadings()
                 << " range readings, expected " << GetNumberOfRangeReadings() << std::endl;
-      return false;
+      //return false;
     }
 
     return true;
